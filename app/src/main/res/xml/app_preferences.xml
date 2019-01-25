@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="General">
+        <EditTextPreference
+            android:inputType="textCapWords"
+            android:key="title"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Notebook Title"/>
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Privacy">
+        <EditTextPreference
+            android:inputType="textPassword"
+            android:key="passwordText"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Password"/>
+
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>
